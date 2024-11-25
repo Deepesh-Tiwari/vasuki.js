@@ -1,0 +1,21 @@
+<style>
+    img{
+        max-width: 45%
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    canvas{
+        position: absolute;
+    }
+</style>
+
+<canvas id="canvas"></canvas>
+
+<div class="container">
+    <video id="video-feed" height="560px" width="720px" autoplay></video>
+</div>
+
+<script src="./face-api.min.js"></script>
+<script src="./scripts.js"></script>
